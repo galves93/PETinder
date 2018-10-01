@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+		<meta CHARSET = "utf-8" />
+		<link rel = "stylesheet" type = "text/css" href = "CSS/estilo.css" />	
+        <link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
+		<title> PETinder </title>
+
+	</head>
+
+
+	<body>
+		<div id="menu">
+				<header>
+					
+						<nav>
+							<ul>
+							
+								<li><a href = "Home.html" class = "navegacao"> Home </a> </li>
+								<li><a href = "Quem_somos.html" class = "navegacao"> Quem Somos </a></li>
+								<li><a href = "Procriação.html" class = "navegacao"> Procriação </a></li>
+								<li><a href = "Vendas.html" class = "navegacao"> Vendas </a></li>
+								<li><a href = "Adocao.html" class = "navegacao"> Adoção </a></li>
+								<li><a href = "Cadastre_se.html" class = "navegacao"> Cadastre-se </a></li>
+								<!--<li><a href = "Blog.html" class = "navegacao"> Blog </a></li>-->
+								<li><a href = "Contato.html" class = "navegacao"> Contato </a></li>
+                                 <li><a href = "entrar.php" class = "navegacao" id="logar" > Entrar </a></li>
+								
+							</ul>
+						</nav>
+					
+					<div class = "logo">
+						<h1> PROJETO<br/>PETinder </h1>
+					</div>
+				</header>
+					
+			<div>		
+			<section id = "txtcadastro">
+				<br/>
+				<h2>FAÇA SEU CADASTRO</h2>
+				<p> Preencha os campos e faça seu pré-cadastro.</p>
+			
+                
+            <section id = "precadastro">
+				<fieldset class="precadastro">
+					<form name = "precadastro" action = "Cadastre_se.php" method = "post" novalidate>
+							<h2>DADOS PESSOAIS</h2>
+                        <label for = "nome">Nome:</label>
+							<input type = "text" id = "nome" name = "nome" placeholder = "Digite seu nome" required autofocus autocomplete="name"><br/><br/>
+							<label for = "sobrenome">Sobrenome:</label>
+							<input type = "text" id = "sobrenome" name = "sobrenome" placeholder = "Digite seu sobrenome" autocomplete="family-name" /><br/><br/>
+
+							<h2>DADOS CADASTRAIS</h2>
+							<label for = "email">E-Mail:</label>
+							<input type = "email" id = "email" name = "email" placeholder = "Digite um E-Mail" required autocomplete="email" /><br/><br/>
+							<label for = "nomeusuario">Nome de Usuário:	</label>
+							<input type = "text" id = "nomeusuario" name = "nomedeusuario" placeholder = "Digite Nome de Usuário" required autocomplete="username" ><br/><br/>
+							<label for = "senha">Senha:</label>
+							<input type = "password" id = "senha" name = "senha" placeholder = "Digite uma Senha" required autocomplete="current-password"><br/><br/>
+							<label for = "confirmasenha">Confirmar Senha:</label>
+							<input type = "password" id = "confirmasenha" name = "confirmasenha" placeholder = "Confirme sua Senha" required autocomplete="current-password">
+							
+							<br/><br/><button type = "submit" id="btnEnviar">Enviar</button>
+
+					</form>
+				</fieldset>
+			</section>
+        </section>
+			</div>
+			<footer id = "rodape">
+			<p> Entre em contato pelos números... todos os diretos sao reservados
+				pelos ciradores do site</p>
+			</footer>
+		</div>
+	</body>
+	</html>
